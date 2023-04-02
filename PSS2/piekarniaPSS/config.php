@@ -3,7 +3,7 @@ $conf->debug = true; # set true during development and use in your code (for ins
 
 $conf->server_name = 'localhost';   # server address and port
 $conf->protocol = 'http';           # http or https
-$conf->app_root = '/piekarnia/public';   # project subfolder in domain (relative to main domain)
+$conf->app_root = '/piekarniaPSS/public';   # project subfolder in domain (relative to main domain)
 
 $conf->db_type = 'mysql';
 $conf->db_server = 'localhost';
