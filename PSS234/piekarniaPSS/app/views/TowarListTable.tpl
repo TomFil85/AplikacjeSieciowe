@@ -1,9 +1,10 @@
-<div class="pure-g">
+<table class="pure-table pure-table-bordered">
 
 {foreach $records as $r}
 {strip}
 <div class="pure-u-1-4">
 <img class="pure-img-responsive" src="{$conf->app_root}/images/chleb.png">
+
 <p>
 {$r["nazwa"]} <br>
 {$r["cena"]} zł <br>
@@ -20,8 +21,9 @@
 		<i class="fa fa-shopping-cart fa-lg"></i>Dodaj do koszyka
 	</a>
 </p>
+
 </div>
 {/if}
 {/strip}
 {/foreach}
-</div>
+</table>
